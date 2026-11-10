@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Meu Treino",
+    "slug": "meu-treino",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": { "bundleIdentifier": "br.com.meutreino" },
+    "android": { "package": "br.com.meutreino" }
+  }
+}

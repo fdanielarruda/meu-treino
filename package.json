@@ -1,0 +1,14 @@
+{
+  "name": "meu-treino",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["api", "web", "mobile"],
+  "scripts": {
+    "dev:api": "npm run dev -w api",
+    "dev:web": "npm run dev -w web",
+    "dev:mobile": "npm run start -w mobile",
+    "db:init": "npm run db:init -w api",
+    "build": "npm run build -w web && npm run build -w api",
+    "start": "node --env-file-if-exists=api/.env api/dist/server.js"
+  }
+}
